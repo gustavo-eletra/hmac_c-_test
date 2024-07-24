@@ -7,6 +7,7 @@ C:\Users\engen\hmac_c#_test\obj\Debug\net8.0\hmac_c#_test.GeneratedMSBuildEditor
 C:\Users\engen\hmac_c#_test\obj\Debug\net8.0\hmac_c#_test.AssemblyInfoInputs.cache
 C:\Users\engen\hmac_c#_test\obj\Debug\net8.0\hmac_c#_test.AssemblyInfo.cs
 C:\Users\engen\hmac_c#_test\obj\Debug\net8.0\hmac_c#_test.csproj.CoreCompileInputs.cache
+C:\Users\engen\hmac_c#_test\obj\Debug\net8.0\hmac_c#_test.sourcelink.json
 C:\Users\engen\hmac_c#_test\obj\Debug\net8.0\hmac_c#_test.dll
 C:\Users\engen\hmac_c#_test\obj\Debug\net8.0\refint\hmac_c#_test.dll
 C:\Users\engen\hmac_c#_test\obj\Debug\net8.0\hmac_c#_test.pdb

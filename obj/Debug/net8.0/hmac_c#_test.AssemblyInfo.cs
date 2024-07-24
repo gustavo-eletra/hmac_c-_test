@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("hmac_c#_test")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1213bee1fecf60a815f4ef1319cb010d9350eb1b")]
 [assembly: System.Reflection.AssemblyProductAttribute("hmac_c#_test")]
 [assembly: System.Reflection.AssemblyTitleAttribute("hmac_c#_test")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
