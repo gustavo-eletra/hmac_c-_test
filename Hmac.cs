@@ -37,11 +37,16 @@ namespace NBR14522.Model.Abnt
             Array.Copy(text, 0, aux, g_ipad.Length, text.Length);
             byte[]? hashoutput = md.ComputeHash(aux);
 
+
+            Console.WriteLine( BitConverter.ToString(hashoutput));
+
             aux = new byte[g_opad.Length + hashoutput.Length];
             Array.Copy(g_opad, 0, aux, 0, g_opad.Length);
             Array.Copy(hashoutput, 0, aux, g_opad.Length, hashoutput.Length);
 
-            hashoutput = md.ComputeHash(aux, 0, aux.Length);
+            hashoutput = md.ComputeHash(aux);
+
+            Console.WriteLine( BitConverter.ToString(hashoutput));
 
             return hashoutput;
         }
@@ -60,6 +65,12 @@ namespace NBR14522.Model.Abnt
                 g_ipad[i] ^= password[i];
                 g_opad[i] ^= password[i];
             }
+
+
+            Console.WriteLine( BitConverter.ToString(g_ipad));
+            Console.WriteLine( BitConverter.ToString(g_opad));
         }
     }
 }
+
+//58-84-EC-63-7E-4F-F6-0E-1B-05-0C-D6-5C-C6-8C-49-3D-BB-00-BF-D5-9E-EB-EE-36-4E-DA-D0-F3-E1-D4-CB
